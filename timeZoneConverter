@@ -1,0 +1,84 @@
+"""
+Date: 11/28/2019
+Title:timeZoneConverter
+Description:
+Very Simple and very basic Time Zone Converter. Run the code and you'll be asked to enter a time in hours only, ie: 1:00:00 type 1 for 2:00:00 type 2 and then you will be asked which time zone you want to convert to the listed zones:
+
+1-Eastern
+2-Central
+3-Mountain
+4-Pacific
+
+Once time is entered and zone is selected the info are parameters passed to the function and the results printed as follows:
+Please note this following example for passing value Eastern and 12 as time:
+
+interpeter returns:
+
+Your time zone is Eastern
+The time now: 11Central
+The time now: 10Mountain
+The time now: 9Pacific
+
+Feel free to use this, modify, fork and share your feedback with me.
+
+Author: Mohamed Hafez
+"""
+
+#start
+import math
+
+
+
+for num in range(0):
+    timeConverter()
+
+
+def timeConverter():
+    
+    #US time Zones
+    estZone = "Eastern" #1
+    ctZone = "Central"  #2
+    mtZone = "Mountain" #3
+    pstZone = "Pacific" #4
+    
+    #not too worried about am or pm now or minutes and seconds only hours are being calculated
+    
+    print("# Hello This is a simple time zone converter#######")
+    print("# Available time zones:#######")
+    print("1-Eastern"+"\n"+"2-Central"+"\n"+"3-Mountain"+"\n"+"4-Pacific")
+    userTime = int(input("Pleae enter your time? Hours only for twelve o'clock type 12:"))
+    
+    userZone = input("What's your timezone please? type name or number:")
+    
+    eastern = "1"
+    central = "2"
+    mountain = "3"
+    pacific = "4"
+    
+    
+    if userZone == estZone or userZone == eastern:
+        print("Your time zone is " + estZone)
+        print("The time now: " + str((userTime - 1)) + ctZone)
+        print("The time now: " + str((userTime - 2)) + mtZone)
+        print("The time now: " + str((userTime - 3)) + pstZone)
+        
+    elif userZone == ctZone or userZone == central:
+        print("Your time zone is " + ctZone)
+        print("The time now: " + str((userTime + 1)) + estZone)
+        print("The time now: " + str((userTime - 1)) + mtZone)
+        print("The time now: " + str((userTime - 2)) + pstZone)
+        
+    elif userZone == mtZone or userZone == mountain:
+        print("Your time zone is " + mtZone)
+        print("The time now: " + str((userTime + 2)) + estZone)
+        print("The time now: " + str((userTime + 1)) + ctZone)
+        print("The time now: " + str((userTime - 1)) + pstZone)
+        
+    elif userZone == pstZone or userZone == pacific:
+        print("Your time zone is " + pstZone)
+        print("The time now: " + str((userTime + 3)) + estZone)
+        print("The time now: " + str((userTime + 2)) + ctZone)
+        print("The time now: " + str((userTime + 1)) + mtZone)
+
+timeConverter()
+#end
