@@ -1,7 +1,9 @@
 # UOPeople_Projects
 The University of The People Projects Folder. Containing my assignments work and solutions.
-#This is a python 3 project.
-Project01: Date: 11/28/2019<br>
+<br>
+Project01: <br>
+Language: Python 3<br>
+Date: 11/28/2019<br>
 Title:timeZoneConverter<br>
 Description:<br>
 Very Simple and very basic Time Zone Converter. Run the code and you'll be asked to enter a time in hours only, ie: 1:00:00 type 1 for 2:00:00 type 2 and then you will be asked which time zone you want to convert to the listed zones:<br>
