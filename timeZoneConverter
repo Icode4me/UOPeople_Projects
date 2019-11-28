@@ -2,7 +2,7 @@
 Date: 11/28/2019
 Title:timeZoneConverter
 Description:
-Very Simple and very basic Time Zone Converter. Run the code and you'll be asked to enter a time in hours only, ie: 1:00:00 type 1 for 2:00:00 type 2 and then you will be asked which time zone you want to convert to the listed zones:
+Very Simple and very basic Python 3 Time Zone Converter. Run the code and you'll be asked to enter a time in hours only, ie: 1:00:00 type 1 for 2:00:00 type 2 and then you will be asked which time zone you want to convert to the listed zones:
 
 1-Eastern
 2-Central
