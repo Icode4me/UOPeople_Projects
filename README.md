@@ -1,5 +1,5 @@
 # UOPeople_Projects
-[read about this project](UOPeople_Projects/README.md)
+[read about this project](README.md)
 
 
 ## Project01:timeZoneConverter.py
