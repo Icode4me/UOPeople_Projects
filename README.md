@@ -11,3 +11,10 @@
 
 ## compareXandY.py
 > Give 2 numbers x, y and it will return in a print function: 1 when x > y, -1 if x < y, and 0 if x == y but the coolest thing ever is that initially you wiil be asked how many times you'd like to run this compare function
+
+
+## To do's:
+- [x] \(Optional) Open a followup issue 1
+- [ ] \(Optional) Open a followup issue 2
+- [ ] \(Optional) Open a followup issue 3
+- [ ] \(Optional) Open a followup issue 4
