@@ -18,3 +18,8 @@
 - [ ] \(Optional) Open a followup issue 2
 - [ ] \(Optional) Open a followup issue 3
 - [ ] \(Optional) Open a followup issue 4
+
+
+## formatting link: 
+> To learn more about GitHub Format Syntax:
+[GitHub Pages](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#headings)
