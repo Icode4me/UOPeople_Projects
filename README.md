@@ -1,4 +1,6 @@
 # UOPeople_Projects
+[read about this project](UOPeople_Projects/README.md)
+
 
 ## Project01:timeZoneConverter.py
 > This programs asks you to enter your current time and time zone and calculates time now in other zones, I wanted a quick way to know what time is it in other US timezones can be improved 
