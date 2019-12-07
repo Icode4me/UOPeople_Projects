@@ -7,7 +7,7 @@ This programs asks you to enter your current time and time zone and calculates t
 Mathmatical calculation to calc sphere volume
 
 # Project03:myBio.py
-simple question prompts then print out of what user entered
+Simple question prompts then print out of what user entered
 
 # compareXandY.py
 Give 2 numbers x, y and it will return in a print function: 1 when x > y, -1 if x < y, and 0 if x == y 
