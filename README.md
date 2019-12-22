@@ -14,6 +14,10 @@
 ## compareXandY.py
 > Give 2 numbers x, y and it will return in a print function: 1 when x > y, -1 if x < y, and 0 if x == y but the coolest thing ever is that initially you wiil be asked how many times you'd like to run this compare function
 
+## toDo_list.py
+> This is a basic todo list. Asks EU if they want to add a task to the list, if yes then asks you to enter the actual task and appends it to the list. if no it will break. 
+
+
 
 ## To do's:
 - [x] \(Optional) Open a followup issue 1
