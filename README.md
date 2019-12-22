@@ -1,4 +1,4 @@
-# UOPeople_Projects
+# UOPeople_Python_Projects
 [read about this project](README.md)
 
 
